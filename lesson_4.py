@@ -10,4 +10,4 @@ def  SynchronizingTables(N, ids, salary):
           salary[j], salary[j + 1] = salary[j + 1], salary[j]
     return salary
   else:
-    print("Неверное значение!")
+    return print("Неверное значение!")
