@@ -1,10 +1,10 @@
 def  SynchronizingTables(N, ids, salary):
   new_ids = []
   new_salary = []
-  if len(ids) == len(salary) == N:
+  if len(ids) == len(salary) and len(ids) == N:
     for i in range(len(ids)):
       new_ids.append(ids[i])
-      new_salary.append(new_salary[i])
+      new_salary.append(salary[i])
     for i in range(len(new_salary) - 1):
       for j in range(len(new_salary) - i - 1):
         if new_ids[j] < new_ids[j + 1] :
