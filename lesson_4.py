@@ -16,6 +16,6 @@ def  SynchronizingTables(N, ids, salary):
       for j in range(N):
         if ids[i] == new_ids[j] :
           fin_salary.append(new_salary[j])
-    return fin_salary, new_ids
+    return fin_salary
   else:
     return print("Неверное значение!")
